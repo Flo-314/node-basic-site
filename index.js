@@ -29,6 +29,12 @@ app.use((req,res) =>{
 app.listen(port, () =>{
   console.log("listeneando")
 })
+
+
+
+
+//MISMA APP PERO EN NODE.JS ("""VANILLA""") 
+
 /* const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/html");
